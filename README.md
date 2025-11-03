@@ -2,6 +2,11 @@
 
 A deep learning approach to musical chord classification using neural networks with Monte Carlo Dropout for uncertainty quantification. This project classifies MIDI chords into three categories: Major, minor, and Other, while providing confidence estimates and uncertainty decomposition.
 
+## Group members
+- Riandika Marshequila Dinu
+- Yitong Lin Yang
+- Dariana Hosu
+
 ## Project Overview
 
 This project implements a neural network classifier for musical chords with the following key features:
