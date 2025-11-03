@@ -5,7 +5,7 @@ A deep learning approach to musical chord classification using neural networks w
 ## Group members
 - Riandika Marshequila Dinu
 - Yitong Lin Yang
-- Dariana Hosu
+- Dariana Hossu
 
 ## Project Overview
 
