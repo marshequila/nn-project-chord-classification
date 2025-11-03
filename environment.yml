@@ -1,0 +1,25 @@
+name: quartet-project
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipython
+  - pytest
+  - pip
+  - pip:
+    - pretty_midi
+    - mido
+    - pyyaml
+    - tqdm
+    - python-dotenv

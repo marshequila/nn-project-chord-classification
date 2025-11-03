@@ -1,0 +1,26 @@
+@startuml data_pipeline
+title Data Pre-processing Pipeline
+
+partition "Data Acquisition" {
+    :Load MIDI files;
+    :Slice into 0.5 s timesteps;
+}
+
+partition "Note & Chord Extraction" {
+    :Detect active notes per instrument;
+    :Identify chords using music21;
+}
+
+partition "Feature Construction" {
+    :Convert MIDI pitches to note names;
+    :Simplify to 12-dim PCP (C4, C5 -> C);
+    :Concatenate 4 x 12-D vectors -> 48-D feature vector;
+}
+
+partition "Dataset Output" {
+    :Save 48-D feature vectors + chord labels;
+    :Filter rare chords (remove chords with too few samples);
+}
+
+stop
+@enduml

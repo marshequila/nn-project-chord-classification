@@ -1,0 +1,6 @@
+Label Mapping
+==================================================
+
+0: Major      (9111 samples)
+1: Other      (2490 samples)
+2: minor      (6666 samples)
